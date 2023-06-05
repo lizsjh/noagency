@@ -29,13 +29,13 @@ botui.message.add({
     });
 }).then(function(){
     return botui.message.add({
-        delay:2000,
+        delay:3000,
         loading: true,
         content:'Please hold on while your message is being processed once more.'
     });
 }).then(function(){
     return botui.message.add({
-        delay:6000,
+        delay:10000,
         loading: true,
         content:'Your response is processed. Now, could you input your order number below?'
     });
